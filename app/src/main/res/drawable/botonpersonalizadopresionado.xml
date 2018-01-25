@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle" >
+    <corners
+        android:radius="@dimen/radio"
+        />
+    <gradient
+        android:angle="135"
+        android:centerX="35%"
+        android:centerColor="@color/colorcentroboton"
+        android:startColor="@color/colorfinalboton"
+        android:endColor="@color/colorinicioboton"
+        android:type="linear"
+        />
+    <padding
+        android:left="@dimen/valorcero"
+        android:top="@dimen/valorcero"
+        android:right="@dimen/paddingderecha"
+        android:bottom="@dimen/valorcero"
+        />
+    <stroke
+        android:width="@dimen/tamborde"
+        android:color="@color/colorbordeboton"
+        />
+</shape>

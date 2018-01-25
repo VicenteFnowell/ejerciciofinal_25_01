@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorfondo"
+    tools:context="com.example.ejerciciofinal_25_01.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/alturafondo"
+        android:background="@drawable/pulp"
+        android:orientation="horizontal"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/boton1"
+                    android:text="@string/pulp_fiction"
+                    style="@style/EstiloBoton" />
+
+                <Button
+                    android:id="@+id/boton2"
+                    android:text="@string/matrix"
+                    style="@style/EstiloBoton"/>
+
+                <Button
+                    android:id="@+id/boton3"
+                    android:text="@string/goonies"
+                    style="@style/EstiloBoton"/>
+
+                <Button
+                    android:id="@+id/boton4"
+                    android:text="@string/regreso"
+                    style="@style/EstiloBoton"/>
+
+                <Button
+                    android:id="@+id/boton5"
+                    android:text="@string/hook"
+                    style="@style/EstiloBoton"/>
+
+                <Button
+                    android:id="@+id/boton6"
+                    android:text="@string/padrino"
+                    style="@style/EstiloBoton"/>
+
+                <Button
+                    android:id="@+id/boton7"
+                    android:text="@string/soloencasa"
+                    style="@style/EstiloBoton"/>
+
+                <Button
+                    android:id="@+id/boton8"
+                    android:text="@string/esdla"
+                    style="@style/EstiloBoton"/>
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="12dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/textopulp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colortexto"
+                        android:textSize="@dimen/tamtextogrande" />
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:elevation="0dp"
+            android:text="Button" />
+    </RelativeLayout>
+
+</LinearLayout>

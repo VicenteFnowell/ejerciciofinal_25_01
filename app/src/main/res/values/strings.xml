@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ejerciciofinal_25_01</string>
+    <string name="pulp_fiction">Pulp Fiction</string>
+    <string name="regreso">Regreso al Futuro</string>
+    <string name="matrix">Matrix</string>
+    <string name="goonies">Los Goonies</string>
+    <string name="padrino">El Padrino</string>
+    <string name="hook">Hook</string>
+    <string name="soloencasa">Solo en Casa</string>
+    <string name="esdla">El señor de los anilos</string>
+    <string name="textopulp">Pulp Fiction (conocida en Latinoamérica como Tiempos violentos) es una película estadounidense del año 19944​ dirigida por Quentin Tarantino, quien coescribió el guion con Roger Avary. Su nombre deriva de la literatura pulp. Está protagonizada por John Travolta, Uma Thurman, Bruce Willis y Samuel L. Jackson, entre otros. Debido a sus eclécticos diálogos, su combinación irónica de humor y violencia, y sus múltiples referencias cinematográficas a la cultura pop, que fueron tan utilizadas posteriormente, influyó en películas subsiguientes.5​ Es considerada también una de las películas más representativas del cine que realiza Tarantino.</string>
+</resources>

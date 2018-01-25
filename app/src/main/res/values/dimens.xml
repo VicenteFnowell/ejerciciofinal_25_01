@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="alturafondo">180dp</dimen>
+    <dimen name="alturafondoland">80dp</dimen>
+    <dimen name="marginggeneral">12dp</dimen>
+    <dimen name="marginbotones">5dp</dimen>
+    <dimen name="tamtextoboton">20dp</dimen>
+    <dimen name="tamtextogrande">15dp</dimen>
+    <dimen name="tambotones">50dp</dimen>
+    <dimen name="valorcero">0dp</dimen>
+    <dimen name="paddingderecha">30dp</dimen>
+    <dimen name="tamborde">1dp</dimen>
+    <dimen name="radio">14dp</dimen>
+
+
+</resources>
